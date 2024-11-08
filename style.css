@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(192, 234, 234);
+	/* padding: 2rem; */
+	text-align: center;
+	color: #fff;
+	font-family: cursive;
+	/* overflow: hidden; */
+}
+
+h1 {
+	margin: 1.5rem;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+.cup {
+	color: blue;
+	width: 8rem;
+	height: 19rem;
+	background-color: #fff;
+	border: solid 4px rgb(173, 173, 244);
+	margin: 1rem 0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 0.5rem auto;
+	border-radius: 0 0 1rem 1rem;
+	overflow: hidden;
+}
+
+.remained {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	flex: 1;
+	/* width: 100%; */
+	transition: 0.3s ease;
+}
+
+.remained span {
+	font-weight: bold;
+	font-size: 0.8rem;
+}
+
+.remained small {
+	font-weight: bold;
+	font-size: 0.7rem;
+}
+
+.percentage {
+	width: 100%;
+	border-color: aqua;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	height: 0;
+	transition: 0.3s ease;
+	background-color: aqua;
+}
+
+.cups {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 1rem;
+	margin: 0 auto;
+	width: 270px;
+	transition: 0.3s ease;
+}
+
+.cup-small {
+	height: 4rem;
+	width: 3rem;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.cup.cup-small.fill {
+	background-color: aqua;
+	color: #fff;
+}
